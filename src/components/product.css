@@ -1,0 +1,21 @@
+.image {
+  width: 300px;
+  height: 350px;
+}
+.Product > a {
+  width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .Product a {
+  text-decoration: none;
+  color: inherit;
+} */
+.Product {
+  margin: 7px;
+}
+.Product:hover {
+  box-shadow: 1px 2px 2px 2px #94a3b8, -1px 0px 2px 2px #94a3b8;
+}

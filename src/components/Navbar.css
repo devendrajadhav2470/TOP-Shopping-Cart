@@ -1,0 +1,23 @@
+.Navbar {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  background-color: #b45309;
+  align-items: center;
+  color: white;
+}
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+.Navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu {
+  width: 200px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  transform: translateX(-200px);
+}

@@ -1,0 +1,20 @@
+.details-container {
+  display: flex;
+  width: 100vw;
+  height: 76vh;
+  align-items: center;
+  justify-content: center;
+}
+.details {
+  width: 30%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.details img {
+  width: 300px;
+  height: 350px;
+}
+.details > div {
+  display: flex;
+  flex-direction: column;
+}
